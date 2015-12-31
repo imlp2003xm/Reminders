@@ -22,7 +22,20 @@
             android:text="Reminder Text"
             android:id="@+id/row_text"
             android:textSize="18sp"
-            android:background="@color/white" />
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
     </LinearLayout>
 
+    <android.view.View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"/>
+
+    <android.view.View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333"/>
 </LinearLayout>
